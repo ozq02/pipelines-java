@@ -10,7 +10,8 @@
 trigger:
   - main
   - releases/*
-
+pool:
+  vmImage: ubuntu-latest # This is the default if you don't specify a pool or vmImage.
 steps:
 - task: Maven@3
   inputs:

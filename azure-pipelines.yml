@@ -2,11 +2,11 @@
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
-resources:
-  repositories:
-  - repository: pipelines-java  # 替换成你的仓库名称
-    type: github  # 替换成你的仓库类型，比如 github
-    name: ozq02/pipelines-java  # 替换成你的 GitHub 组织/仓库名称
+# resources:
+  # repositories:
+  # - repository: pipelines-java  # 替换成你的仓库名称
+    # type: github  # 替换成你的仓库类型，比如 github
+    # name: ozq02/pipelines-java  # 替换成你的 GitHub 组织/仓库名称
 trigger:
   - main
   - releases/*

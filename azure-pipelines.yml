@@ -28,4 +28,5 @@ steps:
     script: |
       # Write your commands here
       echo 'Hello world'
-       
+- publish: $(System.DefaultWorkingDirectory)/bin/WebApp
+  artifact: WebApp      
